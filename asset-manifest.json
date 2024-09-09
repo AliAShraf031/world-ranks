@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/world-ranks/static/css/main.7d40fd64.css",
+    "main.js": "/world-ranks/static/js/main.8d8ccef2.js",
+    "static/js/453.2e9a8f56.chunk.js": "/world-ranks/static/js/453.2e9a8f56.chunk.js",
+    "static/media/hero-image-wr.jpg": "/world-ranks/static/media/hero-image-wr.dcee4c10f3af0d78fcb7.jpg",
+    "static/media/Logo.svg": "/world-ranks/static/media/Logo.0df25db9b1a0cbd724aba2918429a893.svg",
+    "index.html": "/world-ranks/index.html",
+    "main.7d40fd64.css.map": "/world-ranks/static/css/main.7d40fd64.css.map",
+    "main.8d8ccef2.js.map": "/world-ranks/static/js/main.8d8ccef2.js.map",
+    "453.2e9a8f56.chunk.js.map": "/world-ranks/static/js/453.2e9a8f56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d40fd64.css",
+    "static/js/main.8d8ccef2.js"
+  ]
+}
