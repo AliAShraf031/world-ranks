@@ -1,0 +1,151 @@
+.container {
+  width: 50%;
+  background-color: #1B1D1F;
+  margin: auto;
+  transform: translateY(-50px);
+  border-radius: 15px;
+  border: 1px solid #282B30;
+}
+
+.container .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  transform: translateY(-50px);
+}
+
+.container .info img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.container .info .name {
+  color: #D2D5DA;
+  text-align: center;
+}
+
+.container .info .name h1 {
+  margin-bottom: 3px;
+}
+
+.container .info .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #D2D5DA;
+  gap: 100px;
+}
+
+.container .info .content .numbers {
+  display: flex;
+  background-color: #282B30;
+  padding: 15px 20px;
+  border-radius: 10px;
+  justify-content: space-between;
+  gap: 40px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.container .info .content .numbers .arrow {
+  color: #D2D5DA;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.container .details .group {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #282B30;
+}
+
+.container .details .group:first-child {
+  border-top: 1px solid #282B30;
+}
+
+.container .details .group span:first-child {
+  color: #6C727F;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.container .details .group span:last-child {
+  color: #D2D5DA;
+  font-size: 16px;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: blue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .container {
+    width: 70%;
+  }
+
+  .container .info img {
+    width: 250px;
+    border-radius: 15px;
+  }
+
+  .container .info .content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+  }
+
+}
+
+
+@media (max-width: 426px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .container .info img {
+    width: 200px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
+
+  .container .info img {
+    width: 180px;
+    border-radius: 15px;
+    transform: translateY(15px);
+  }
+}
